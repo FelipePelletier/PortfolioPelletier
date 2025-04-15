@@ -1,4 +1,4 @@
-import AvatarPortfolio from "@/components/avatar-portfolio";
+/* import AvatarPortfolio from "@/components/avatar-portfolio";
 import CircleImage from "@/components/circle-image";
 import ContainerPage from "@/components/container";
 import PortfolioBox from "@/components/portfolio-box";
@@ -32,4 +32,4 @@ const PortfolioPage = () => {
      );
 }
  
-export default PortfolioPage;
+export default PortfolioPage; */

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+/* import Image from "next/image"; */
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
@@ -8,13 +8,13 @@ const Introduction = () => {
   return (
     <div className="z-20 w-full bg-darkBg/60">
       <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-        <Image
+        {/*   <Image
           src="/home-4.png"
           priority
           width="800"
           height="800"
           alt="Profile pic"
-        />
+        /> */}
 
         <div className="flex flex-col justify-center max-w-md">
           <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
@@ -44,12 +44,12 @@ const Introduction = () => {
           </p>
 
           <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
-            <Link
+            {/* <Link
               href="/projects"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
             >
               Ver proyectos
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border_secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary"

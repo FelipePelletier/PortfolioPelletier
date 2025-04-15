@@ -64,12 +64,12 @@ export const itemsNavbar = [
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
     link: "/services",
   },
-  {
+  /*  {
     id: 4,
     title: "Target",
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
-  },
+  }, */
   {
     id: 5,
     title: "Home",

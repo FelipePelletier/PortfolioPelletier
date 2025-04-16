@@ -9,8 +9,9 @@ const ContactComponent = () => {
       <TransitionPage />
 
       <ContainerPage>
-        <span className="text-bold text-secondary">Contacto</span>
-        <ContactFormulario />
+        <div className="min-h-screen pt-8 pb-32 px-4">
+          <ContactFormulario />
+        </div>
       </ContainerPage>
     </div>
   );

@@ -44,7 +44,7 @@ const ContactFormulario = () => {
   return (
     <div className="max-w-lg mx-auto p-6 bg-white dark:bg-gray-900 shadow-lg rounded-2xl">
       <h2 className="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-gray-100">
-        Contacto
+        Contact
       </h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <div>
@@ -52,7 +52,7 @@ const ContactFormulario = () => {
             className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-200"
             htmlFor="name"
           >
-            Nombre
+            Name
           </label>
           <input
             id="name"
@@ -70,7 +70,7 @@ const ContactFormulario = () => {
             className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-200"
             htmlFor="email"
           >
-            Correo electrónico
+            E-mail
           </label>
           <input
             id="email"
@@ -88,7 +88,7 @@ const ContactFormulario = () => {
             className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-200"
             htmlFor="message"
           >
-            Mensaje
+            Message
           </label>
           <textarea
             id="message"

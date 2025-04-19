@@ -18,32 +18,20 @@ const Introduction = () => {
         />
 
         <div className="flex flex-col justify-center max-w-md">
-          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-secondary">
+          <span className="font-bold mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-secondary">
+            Hi! I'm Felipe Pelletier
+          </span>
+          {/*  <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-secondary">
             Hola! Mi nombre es Felipe Pelletier
             <br />
-            {/* <TypeAnimation
-              sequence={[
-                "puedes programarlo",
-                1000,
-                "puedes optimizarlo",
-                1000,
-                "puedes implementarlo",
-                1000,
-                "puedes desarrollaro",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-              className="block font-bold text-secondary"
-            /> */}
-          </h1>
+          </h1> */}
 
           <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-            Soy desarrollador front-end con enfoque en la creación de interfaces
-            web modernas, eficientes y centradas en el usuario. Trabajo
-            principalmente con React y Next.js, buscando siempre combinar
-            funcionalidad con un diseño limpio y responsive.
+            I'm a front-end developer focused on building modern, efficient, and
+            user-centered web interfaces. I primarily work with React and
+            Next.js, always aiming to combine functionality with clean and
+            responsive design. I also enjoy working in collaborative
+            environments where teamwork and communication are key
           </p>
 
           <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
@@ -57,7 +45,7 @@ const Introduction = () => {
               href="/contact"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border_secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary"
             >
-              Contacta conmigo
+              Contact me
             </Link>
           </div>
         </div>

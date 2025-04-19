@@ -84,12 +84,12 @@ export const dataAboutPage = [
     title: "Frontend Developer",
     subtitle: "Whanau Consultoria",
     description:
-      "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-    date: "Abr 2024 ",
+      "I´m currently working as a front-end developer, building functional and modern web interfaces. I also work with databases using SQL, contributing to data handling and integration throughout the development process.",
+    date: "April 2024 ",
   },
   {
     id: 2,
-    title: "Continuará..",
+    title: "To be continued..",
     subtitle: "...",
     description: "...",
     date: "...",

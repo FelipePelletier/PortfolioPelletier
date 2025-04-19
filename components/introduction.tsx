@@ -19,7 +19,7 @@ const Introduction = () => {
 
         <div className="flex flex-col justify-center max-w-md">
           <span className="font-bold mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-secondary">
-            Hi! I'm Felipe Pelletier
+            Hi! I´m Felipe Pelletier
           </span>
           {/*  <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-secondary">
             Hola! Mi nombre es Felipe Pelletier
@@ -27,7 +27,7 @@ const Introduction = () => {
           </h1> */}
 
           <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-            I'm a front-end developer focused on building modern, efficient, and
+            I´m a front-end developer focused on building modern, efficient, and
             user-centered web interfaces. I primarily work with React and
             Next.js, always aiming to combine functionality with clean and
             responsive design. I also enjoy working in collaborative

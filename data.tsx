@@ -62,14 +62,15 @@ export const itemsNavbar = [
     id: 3,
     title: "Book",
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-    link: "/services",
+    link: "/portfolio",
   },
   /*  {
     id: 4,
     title: "Target",
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
-    link: "/portfolio",
+    link: "/services",
   }, */
+
   /* {
     id: 5,
     title: "Home",
@@ -179,26 +180,27 @@ export const serviceData = [
 export const dataPortfolio = [
   {
     id: 1,
-    title: "Web Pro",
-    image: "/image-1.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "SOJ - E-commerce",
+    image: "/soj.png",
+    urlGithub:
+      "https://github.com/FelipePelletier/ProyectoFinalPelletier-React",
+    /* urlDemo: "#!", */
   },
   {
     id: 2,
-    title: "Desarrollo Web Ágil",
-    image: "/image-2.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "To Do List - Use Reducer",
+    image: "/todo.png",
+    urlGithub: "https://github.com/FelipePelletier/ListaDeTareas-UseReducer",
+    /* urlDemo: "#!", */
   },
   {
     id: 3,
-    title: "Estrategias Web",
-    image: "/image-3.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Comarseg Seguros - Landing Page",
+    image: "/comarseg.png",
+    urlGithub: "https://github.com/FelipePelletier/comarseg-seguros",
+    /* urlDemo: "#!", */
   },
-  {
+  /* {
     id: 4,
     title: "Ideas Creativas",
     image: "/image-4.jpg",
@@ -232,7 +234,7 @@ export const dataPortfolio = [
     image: "/image-8.jpg",
     urlGithub: "#!",
     urlDemo: "#!",
-  },
+  }, */
 ];
 
 export const dataTestimonials = [

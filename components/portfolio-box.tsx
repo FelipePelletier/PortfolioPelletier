@@ -7,13 +7,13 @@ interface PortfolioBoxProps {
     title: string;
     image: string;
     urlGithub: string;
-    urlDemo: string;
+    /* urlDemo: string; */
   };
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
   const { data } = props;
-  const { title, image, urlGithub, urlDemo } = data;
+  const { title, image, urlGithub /* urlDemo  */ } = data;
 
   return (
     <div className="p-4 border border-teal-50 rounded-xl">
@@ -34,13 +34,13 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
         >
           Github
         </Link>
-        <Link
+        {/* <Link
           href={urlDemo}
           target="_blank"
           className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80"
         >
           Github
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
